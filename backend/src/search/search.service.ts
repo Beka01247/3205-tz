@@ -9,8 +9,8 @@ const users: User[] = [
   { email: 'john@gmail.com', number: '221122' },
   { email: 'jams@gmail.com', number: '349425' },
   { email: 'jams@gmail.com', number: '141424' },
-  { email: '‘jill@gmail.com', number: '822287' },
-  { email: '‘jill@gmail.com', number: '822286' },
+  { email: 'jill@gmail.com', number: '822287' },
+  { email: 'jill@gmail.com', number: '822286' },
 ];
 
 @Injectable()

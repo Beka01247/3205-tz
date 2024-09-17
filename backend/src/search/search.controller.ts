@@ -2,7 +2,7 @@ import { Controller, Get, Query } from '@nestjs/common';
 import { SearchService } from './search.service';
 import { SearchDto } from './search.dto';
 
-@Controller('users')
+@Controller('api/users')
 export class SearchController {
   constructor(private readonly searchService: SearchService) {}
 
